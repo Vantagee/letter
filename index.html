@@ -1,0 +1,675 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            line-height: 100%;
+        }
+
+        [style*="Open Sans"] {
+            font-family: 'Open Sans', arial, sans-serif !important;
+        }
+
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100% !important;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+        }
+
+        .pt-30 {
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
+        .padding-32 {
+            padding-bottom: 32px;
+            padding-top: 32px;
+        }
+
+        .title {
+            margin: 0;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #515151;
+            margin-bottom: 13px;
+        }
+
+        .hero-descr {
+            margin: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 24px;
+            color: #515151;
+        }
+
+        .subtitle {
+            margin: 0;
+            margin-bottom: 21px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+
+        .padding-23 {
+            padding-bottom: 23px;
+            padding-top: 23px;
+        }
+
+        .pb-21 {
+            padding-bottom: 21px;
+        }
+
+        .sub-subtitle {
+            margin: 0;
+            margin-bottom: -3px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+
+        .img {
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .img-descr {
+            margin: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+
+        .subtitle-gray {
+            margin: 0;
+            margin-bottom: 11px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #515151;
+        }
+
+        .img-svg {
+            margin-bottom: 11px;
+        }
+
+        .svg-descr {
+            margin: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #515151;
+        }
+
+        .link {
+            width: 240px;
+            height: 45px;
+            background: #9D5CD0;
+            border-radius: 48px;
+        }
+
+        .link a {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+
+        .pt-52 {
+            padding-top: 52px;
+        }
+
+        .footer-padding {
+            padding-top: 25px;
+            padding-bottom: 5px;
+        }
+
+        .svg-link-descr {
+            margin: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+            color: #757575;
+        }
+
+        .pb-10px {
+            padding-bottom: 10px;
+        }
+
+        .svg-link a {
+            margin-right: 19px;
+            display: block;
+        }
+
+        .gray-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 24px;
+            color: #757575;
+        }
+
+        @media (max-width: 600px) {
+            .table-600 {
+                width: 280px !important;
+            }
+
+            .hero-descr {
+                line-height: 25px;
+            }
+
+            .table-520 {
+                width: 244px !important;
+            }
+
+            .mr-29 mobile-pb-28 {
+                margin-right: 0 !important;
+            }
+
+            .mobile-padding-17 {
+                padding-bottom: 17px !important;
+                padding-top: 17px !important;
+            }
+
+            .logo img {
+                width: 114px !important;
+            }
+
+            .hero-img img {
+                height: 300px !important;
+            }
+
+            .mobile-padding {
+                padding-top: 22px !important;
+                padding-bottom: 34px !important;
+            }
+
+            .img {
+                margin-bottom: 6px !important;
+            }
+
+            .sub-subtitle {
+                margin-bottom: 2px !important;
+            }
+
+            .img-descr {
+                width: 210px !important;
+            }
+
+            .pb-mobile-23 {
+                padding-bottom: 23px !important;
+            }
+
+            .table-wrapper {
+                width: 219px !important;
+            }
+
+            .mobile-pb-28 {
+                margin-bottom: 28px;
+            }
+
+            .hero-descr-1 {
+                width: 240px;
+            }
+        }
+
+
+        .block {
+            display: inline-block;
+        }
+
+        .mr-29 {
+            margin-right: 29px;
+        }
+
+        .table-wrapper {
+            width: 140px;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+<div style="font-size:0;color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+    письмо
+</div>
+<table cellpadding="0" cellspacing="0" width="100%" class="table-600" align="center">
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600" bgcolor="black">
+                <tr>
+                    <td align="center">
+                        <table cellpadding="0" cellspacing="0" width="520px" class="table-520">
+                            <tr>
+                                <td class="pt-30 mobile-padding-17 logo" align="center">
+                                    <img src="https://work.maxgraph.ru/mail/blanchard/logo.png" alt="логотип">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600">
+                <tr>
+                    <td align="center" class="hero-img">
+                        <img src="https://work.maxgraph.ru/mail/blanchard/cover.jpg" alt="картинка">
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600">
+                <tr>
+                    <td align="center" class="padding-32">
+                        <table cellpadding="0" cellspacing="0" width="520px" class="table-520">
+                            <tr>
+                                <td>
+                                    <h1 class="title" style="font-family: 'Arial Rounded MT Bold'">
+                                        Торжество импрессионизма
+                                    </h1>
+
+                                    <p class="hero-descr hero-descr-1" style="font-family: 'Arial Rounded MT Bold'">
+                                        Опыт говорит нам, что семантический разбор внешних противодействий требует
+                                        анализа новых принципов формирования материально-технической и кадровой
+                                        базы.
+                                    </p>
+                                    <br>
+                                    <p class="hero-descr" style="font-family: 'Arial Rounded MT Bold'">
+                                        Задача организации, в особенности же внедрение современных методик, в своём
+                                        классическом представлении, допускает внедрение глубокомысленных рассуждений.
+                                        Есть над чем задуматься: элементы политического процесса преданы
+                                        социально-демократической анафеме! Но интерактивные прототипы заблокированы в
+                                        рамках своих собственных рациональных ограничений. Сторонники тоталитаризма в
+                                        науке ограничены исключительно образом мышления.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600" bgcolor="black">
+                <tr>
+                    <td align="center" class="padding-23 mobile-padding">
+                        <table cellpadding="0" cellspacing="0" width="520px" class="table-520">
+                            <tr>
+                                <td>
+                                    <h2 class="subtitle" style="font-family: 'Arial Rounded MT Bold'">
+                                        Представленные художники
+                                    </h2>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td class="pb-21 pb-mobile-23">
+                                                <table>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <img src="https://work.maxgraph.ru/mail/blanchard/painter-1.jpg" alt="картинка">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <h3 class="sub-subtitle"
+                                                                style="font-family: 'Arial Rounded MT Bold'">
+                                                                Поль Гоген
+                                                            </h3>
+
+                                                            <p class="img-descr"
+                                                               style="font-family: 'Arial Rounded MT Bold'">
+                                                                Прежде всего, разбавленное изрядной долей эмпатии,
+                                                                рациональное
+                                                                мышление в значительной степени обусловливает важность
+                                                                укрепления
+                                                                моральных ценностей.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="pb-21 pb-mobile-23">
+                                    <table>
+                                        <tr>
+                                            <td class="img">
+                                                <img src="https://work.maxgraph.ru/mail/blanchard/painter-2.jpg" alt="картинка">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <h3 class="sub-subtitle" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Огюст Ренуар
+                                                </h3>
+
+                                                <p class="img-descr" style="font-family: 'Arial Rounded MT Bold'">
+                                                    А также сделанные на базе интернет-аналитики выводы освещают
+                                                    чрезвычайно интересные особенности картины в целом.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="pb-21 pb-mobile-23">
+                                    <table>
+                                        <tr>
+                                            <td class="img">
+                                                <img src="https://work.maxgraph.ru/mail/blanchard/painter-3.jpg" alt="картинка">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <h3 class="sub-subtitle" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Клод Моне
+                                                </h3>
+
+                                                <p class="img-descr" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Современная методология разработки однозначно фиксирует
+                                                    необходимость системы массового участия.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="pb-21 pb-mobile-23">
+                                    <table>
+                                        <tr>
+                                            <td class="img">
+                                                <img src="https://work.maxgraph.ru/mail/blanchard/painter-4.jpg" alt="картинка">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <h3 class="sub-subtitle" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Эдуард Мане
+                                                </h3>
+
+                                                <p class="img-descr" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Но социально-экономическое развитие является качественно новой
+                                                    ступенью вывода текущих активов.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td class="img">
+                                                <img src="https://work.maxgraph.ru/mail/blanchard/painter-5.jpg" alt="картинка">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <h3 class="sub-subtitle" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Винсент Ван Гог
+                                                </h3>
+
+                                                <p class="img-descr" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Повседневная практика показывает, что разбавленное изрядной долей
+                                                    эмпатии, рациональное мышление требует анализа поставленных
+                                                    обществом задач.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600">
+                <tr>
+                    <td align="center" class="padding-32">
+                        <table cellpadding="0" cellspacing="0" width="520px" class="table-520">
+                            <tr>
+                                <td>
+                                    <h2 class="subtitle-gray">
+                                        И это ещё не всё!
+                                    </h2>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td class="mr-29 mobile-pb-28 block">
+                                                <table class="table-wrapper">
+                                                    <tr>
+                                                        <td class="img-svg">
+                                                            <img src="https://work.maxgraph.ru/mail/blanchard/check.png" alt="картинка">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <p class="svg-descr"
+                                                               style="font-family: 'Arial Rounded MT Bold'">
+                                                                Уникальные подборки работ с авторскими рецензиями
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                            <td class="mr-29 mobile-pb-28 block">
+                                                <table class="table-wrapper">
+                                                    <tr>
+                                                        <td class="img-svg">
+                                                            <img src="https://work.maxgraph.ru/mail/blanchard/calendar.png" alt="картинка">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <p class="svg-descr"
+                                                               style="font-family: 'Arial Rounded MT Bold'">
+                                                                Возможность настроить нашу рассылку под свой личный вкус
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                            <td class="block">
+                                                <table class="table-wrapper">
+                                                    <tr>
+                                                        <td class="img-svg">
+                                                            <img src="https://work.maxgraph.ru/mail/blanchard/arrow.png" alt="картинка">
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td>
+                                                            <p class="svg-descr"
+                                                               style="font-family: 'Arial Rounded MT Bold'">
+                                                                У вас есть пожелания и предложения?
+                                                                Напишите нам в ответ на это письмо!
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="center" class="pt-52">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center" class="link">
+                                                <a href="#" style="font-family: 'Arial Rounded MT Bold'">
+                                                    Узнать все подробности
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600" bgcolor="black">
+                <tr>
+                    <td align="center">
+                        <table cellpadding="0" cellspacing="0" width="520px" class="table-520">
+                            <tr>
+                                <td align="center" class="footer-padding">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="pb-10px" align="center">
+                                                <table>
+                                                    <tr>
+                                                        <td align="right" class="svg-link">
+                                                            <a href="#">
+                                                                <img src="https://work.maxgraph.ru/mail/blanchard/vk.png" alt="вк">
+                                                            </a>
+                                                        </td>
+
+                                                        <td align="center" class="svg-link">
+                                                            <a href="#">
+                                                                <img src="https://work.maxgraph.ru/mail/blanchard/insta.png" alt="инстаграмм">
+                                                            </a>
+                                                        </td>
+
+                                                        <td align="left">
+                                                            <a href="#">
+                                                                <img src="https://work.maxgraph.ru/mail/blanchard/fb.png" alt="феесбук">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <p class="svg-link-descr">
+                                                    Blanchard © 2020 / Все права защищены
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center">
+            <table cellpadding="0" cellspacing="0" width="600px" class="table-600">
+                <tr>
+                    <td align="center">
+                        <table cellpadding="0" cellspacing="0" width="520px" class="table-520">
+                            <tr>
+                                <td align="center">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center" class="gray-text"
+                                                style="font-family: 'Arial Rounded MT Bold'">
+                                                Вы можете так же <a href="#">отписаться от рассылки</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>
